@@ -1,0 +1,103 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+.navbar {
+    width: 100%;
+    background: white;
+    padding: 15px 50px;
+    box-sizing: border-box;
+}
+
+.logo {
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+    color: #c450b5;
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    float: left;
+    margin-left: 20px;
+    color: #555;
+    cursor: pointer;
+}
+
+
+.hero {
+    height: 450px;
+    background: linear-gradient(to right, #2175a9, #bdb9b6);
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-content button {
+    background: #c44a19;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.section {
+    width: 1100px;
+    margin: auto;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section.gray {
+    background: #f6f6f6;
+    width: 100%;
+}
+
+.subtitle {
+    color: #b71212a7;
+    margin-bottom: 40px;
+}
+
+
+.service-box {
+    width: 220px;
+    height: 160px;
+    background: #49a43d;
+    float: left;
+    margin: 0 15px;
+}
+
+
+.portfolio-item {
+    width: 240px;
+    height: 180px;
+    background: #4a58b7;
+    float: left;
+    margin: 10px;
+}
